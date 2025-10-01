@@ -5,27 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload"
+  <link
     href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
-    as="style" onload="this.onload=null;this.rel='stylesheet'">
+    rel="stylesheet">
 
   <title>Frontend Mentor | Product Preview Card Component</title>
   <meta name="description"
     content="Discover Gabrielle Essence Eau De Parfum - A floral, solar and voluptuous interpretation composed by Olivier Polge for CHANEL">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
   <main class="main-container">
     <article class="product-card">
       <picture class="product-card__image-container">
-        <source media="(min-width: 48em)" srcset="./assets/image-product-desktop.jpg">
-        <img class="product-card__image" src="./assets/image-product-mobile.jpg"
-          alt="Gabrielle Essence Eau De Parfum bottle resting on a table" width="700" height="684">
+        <source media="(min-width: 48em)" srcset="./assets/image-product-desktop.webp">
+        <img class="product-card__image" src="./assets/image-product-mobile.webp"
+          alt="Gabrielle Essence Eau De Parfum bottle resting on a table" width="686" height="480" loading="eager"
+          fetchpriority="high">
       </picture>
 
       <div class="product-card__content">
@@ -48,7 +47,8 @@
         </div>
 
         <button class="product-card__button" aria-label="Add Gabrielle Essence Eau De Parfum to shopping cart">
-          <img class="product-card__button-icon" src="./assets/icon-cart.svg" alt="" aria-hidden="true">
+          <img class="product-card__button-icon" src="./assets/icon-cart.svg" alt="" aria-hidden="true"
+            type="image/svg+xml">
           Add to Cart
         </button>
       </div>
