@@ -1,6 +1,7 @@
 # 🚀 Product Preview Card Component
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white) 
+
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 A modern, responsive solution to the Frontend Mentor challenge. Built with modern practices and cutting-edge technologies.
@@ -34,8 +35,7 @@ Part of the [Responsive Learning Path](https://www.frontendmentor.io/learning-pa
 
 ## 🔗 Links
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/product-preview-card/)
-[![Lighthouse Report](https://img.shields.io/badge/Lighthouse_Results-View_FullReport-blue?style=for-the-badge)](./lighthouse-results.html)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/product-preview-card/) 
 
 ## 📚 What I Learned
 
