@@ -13,6 +13,7 @@ A modern, responsive solution to the Frontend Mentor challenge. Built with moder
 - [Overview](#-overview)
 - [Built with](#-built-with)
 - [Links](#-links)
+- [Lighthouse Results](#-lighthouse-results)
 - [What I Learned](#-what-i-learned)
 - [Author](#-author)
 - [Acknowledgments](#-acknowledgments)
@@ -36,6 +37,17 @@ Part of the [Responsive Learning Path](https://www.frontendmentor.io/learning-pa
 ## 🔗 Links
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/product-preview-card/) 
+
+## 🏆 Lighthouse Results
+
+![Performance](https://img.shields.io/badge/Performance-96%2F100-brightgreen?style=flat-square) 
+![Accessibility](https://img.shields.io/badge/Accessibility-100%2F100-success?style=flat-square)
+![Best Practices](https://img.shields.io/badge/Best_Practices-100%2F100-success?style=flat-square)  
+![SEO](https://img.shields.io/badge/SEO-100%2F100-success?style=flat-square)
+
+[![Lighthouse Report](https://img.shields.io/badge/📊_Lighthouse_Results-View_Full_Report-blue?style=for-the-badge)](./lighthouse-results.html)
+
+
 
 ## 📚 What I Learned
 
