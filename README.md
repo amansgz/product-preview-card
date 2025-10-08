@@ -1,6 +1,6 @@
 # 🚀 Product Preview Card Component
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white)
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
@@ -13,11 +13,9 @@ A modern, responsive solution to the Frontend Mentor challenge. Built with moder
 - [Overview](#-overview)
 - [Built with](#-built-with)
 - [Links](#-links)
-- [Lighthouse Results](#-lighthouse-results)
 - [What I Learned](#-what-i-learned)
 - [Author](#-author)
 - [Acknowledgments](#-acknowledgments)
-
 
 ## 📖 Overview
 
@@ -37,20 +35,7 @@ Part of the [Responsive Learning Path](https://www.frontendmentor.io/learning-pa
 
 ## 🔗 Links
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/product-preview-card/) 
-
-## 🏆 Lighthouse Results
-
-![Performance](https://img.shields.io/badge/Performance-96%2F100-brightgreen?style=flat-square) 
-![Accessibility](https://img.shields.io/badge/Accessibility-100%2F100-success?style=flat-square)
-![Best Practices](https://img.shields.io/badge/Best_Practices-100%2F100-success?style=flat-square)  
-![SEO](https://img.shields.io/badge/SEO-100%2F100-success?style=flat-square)
-
-
-<a href="https://amansgz.github.io/product-preview-card/lighthouse-results.html" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/📊_Lighthouse_Results-View_Full_Report-blue?style=for-the-badge" alt="Lighthouse Results">
-</a>
-
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/product-preview-card/)
 
 ## 📚 What I Learned
 
@@ -65,7 +50,7 @@ This project was an excellent exercise in creating a responsive and accesible co
 3. **Performance Optimization Journey**
    Through rigorous testing and optimization, achieved near-perfect lighthouse scores. Key strategies included WebP image implementation, critical resource prioritization with 'fecthpriority', and CSS delivery optimization.
 
-## 👩‍💻 Author 
+## 👩‍💻 Author
 
 - Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
 - Github - [@amansgz](https://www.github.com/amansgz)
