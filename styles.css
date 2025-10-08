@@ -25,6 +25,14 @@
   --spacing-md: clamp(1rem, 2vw, 1.25rem);
   --spacing-lg: clamp(1.25rem, 3vw, 2.5rem);
   --spacing-xl: clamp(1.8rem, 4vw, 2.5rem);
+
+  --spacing-responsive: clamp(1rem, 1.5vw, 1.2rem);
+
+  /* Border Radius */
+  --border-radius-sm: 10px;
+
+  /* Box Shadows */
+  --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 *,
 *::before,
@@ -50,16 +58,16 @@ body {
   align-items: center;
   flex-grow: 1;
 
-  padding: var(--spacing-md);
+  padding: var(--spacing-responsive);
 }
 
 .product-card {
   display: flex;
   flex-direction: column;
-  max-width: min(320px, 90vw);
-  border-radius: 12px;
+  max-width: min(22.8rem, 90vw);
+  border-radius: var(--border-radius-sm);
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-subtle);
 }
 .product-card__image-container {
   width: 100%;
@@ -70,7 +78,7 @@ body {
   max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
-  min-height: 240px;
+  min-height: 17.14rem;
 }
 .product-card__content {
   display: flex;
@@ -137,21 +145,20 @@ body {
   align-items: center;
   gap: var(--spacing-sm);
 
-  padding: clamp(0.75rem, 2vw, 1rem) var(--spacing-md);
+  padding: var(--spacing-md);
 
   font-size: var(--fs-sm);
   font-weight: var(--fw-bold);
   color: var(--neutral-white);
-  background-color: var(--primary-green);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--primary-green);
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: auto;
 }
 .product-card__button-icon {
-  width: 16px;
-  height: 16px;
+  width: 1.14rem;
+  height: 1.14rem;
 }
 .product-card__button:hover,
 .product-card__button:focus {
@@ -159,7 +166,7 @@ body {
 }
 
 .footer {
-  padding: 1rem;
+  padding: var(--spacing-responsive);
   text-align: center;
 }
 .footer__attribution {
@@ -174,7 +181,7 @@ body {
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 .footer__attribution-link:hover,
-.footer__attribution-link:focus {
+.footer__attribution-link:focus-visible {
   color: var(--primary-green);
   text-decoration: underline;
 }
@@ -182,7 +189,7 @@ body {
 @media (min-width: 48em) {
   .product-card {
     flex-direction: row;
-    max-width: min(670px, 90vw);
+    max-width: min(47.8rem, 90vw);
   }
   .product-card__image-container {
     flex: 1.2;
@@ -205,5 +212,11 @@ body {
   }
   .product-card__prices {
     margin-top: var(--spacing-md);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .product-card__button,
+  .footer__attribution-link {
+    transition-duration: 0.01ms;
   }
 }
